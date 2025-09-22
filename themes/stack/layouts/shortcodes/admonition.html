@@ -1,0 +1,8 @@
+<!-- layouts/shortcodes/admonition.html -->
+{{ $type := .Get 0 | default "note" }}
+<div class="admonition admonition-{{ $type }}">
+  <div class="admonition-title">{{ $type | title }}</div>
+  <div class="admonition-content">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

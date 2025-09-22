@@ -1,0 +1,21 @@
+{{ define "main" }}
+    <section class="article-list">
+        {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+        {{ $paginator := .Paginate $pages }}
+        
+        {{ range $paginator.Pages }}
+            <article>
+                {{ partial "article/list/default" . }}
+                {{ if .Params.tags }}
+                    <div class="article-list-tags">
+                        {{ partial "article/components/tags" . }}
+                    </div>
+                {{ end }}
+            </article>
+        {{ end }}
+        
+        {{ template "_internal/pagination.html" . }}
+    </section>
+{{ end }}
+</section>
+{{ end }}

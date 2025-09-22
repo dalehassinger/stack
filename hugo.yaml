@@ -1,0 +1,19 @@
+baseurl: https://example.com/
+languageCode: en-us
+theme: stack
+title: vCROCS
+copyright: Dale Hassinger
+
+DefaultContentLanguage: en
+
+taxonomies:
+  tag: tags
+  category: categories
+
+params:
+  mainSections:
+    - post
+    - posts
+  
+  article:
+    tags: true

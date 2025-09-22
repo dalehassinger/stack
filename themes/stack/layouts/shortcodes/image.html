@@ -1,0 +1,13 @@
+{{- $src := .Get "src" | default (.Get 0) -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $title := .Get "title" -}}
+{{- $caption := .Get "caption" -}}
+{{- $width := .Get "width" -}}
+{{- $class := .Get "class" -}}
+
+<figure {{ with $class }}class="{{ . }}"{{ end }}>
+  <img src="{{ $src | safeURL }}" alt="{{ $alt }}" {{ with $width }}width="{{ . }}"{{ end }} loading="lazy" />
+  {{- if or $title $caption -}}
+    <figcaption>{{ with $title }}<strong>{{ . }}</strong>{{ end }}{{ if and $title $caption }} — {{ end }}{{ $caption }}</figcaption>
+  {{- end -}}
+</figure>

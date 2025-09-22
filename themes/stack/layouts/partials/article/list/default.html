@@ -1,0 +1,27 @@
+<article class="{{ if .Params.image }}has-image{{ end }}">
+    <div class="article-inner">
+        {{ if .Params.image }}
+            <div class="article-image">
+                <a href="{{ .Permalink }}">
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                </a>
+            </div>
+        {{ end }}
+
+        <div class="article-details">
+            <h2 class="article-title">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h2>
+            <div class="article-meta">
+                <span class="article-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+                <span class="article-author">{{ .Params.author }}</span>
+            </div>
+
+            {{ if .Params.tags }}
+                <div class="article-list-tags">
+                    {{ partial "article/components/tags" . }}
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</article>

@@ -1,0 +1,35 @@
+<article class="{{ if .Params.image }}has-image{{ end }}">
+    <a href="{{ .RelPermalink }}">
+        {{ if .Params.image }}
+            {{ $image := partial "helper/image" (dict "Context" . "Type" "article") }}
+            <div class="article-image">
+                <img src="{{ $image.RelPermalink }}" 
+                     width="{{ $image.Width }}" 
+                     height="{{ $image.Height }}" 
+                     loading="lazy"
+                     alt="Featured image of post {{ .Title }}" />
+            </div>
+        {{ end }}
+    </a>
+
+    <div class="article-details">
+        <header class="article-header">
+            <div class="article-details">
+                {{ partial "article/components/details" . }}
+                <h2 class="article-title">
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </h2>
+            </div>
+        </header>
+
+        {{ if .Params.tags }}
+            <div class="article-list-tags">
+                {{ partial "article/components/tags" . }}
+            </div>
+        {{ end }}
+
+        <section class="article-excerpt">
+            {{ .Summary }}
+        </section>
+    </div>
+</article>

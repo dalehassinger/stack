@@ -1,0 +1,17 @@
+{{ $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "articleList" }}
+<article class="{{ if $image.exists }}has-image{{ end }}">
+    {{ if $image.exists }}
+        <div class="article-image">
+            {{ if eq $image.type "svg" }}
+                {{ $image.content | safeHTML }}
+            {{ else }}
+                <img src="{{ $image.permalink }}" 
+                     {{ with $image.params.alt }}alt="{{ . }}"{{ end }}
+                     loading="lazy"
+                     data-key="{{ $image.key }}" 
+                     data-hash="{{ $image.hash }}" />
+            {{ end }}
+        </div>
+    {{ end }}
+    {{ partial "article/components/home-article-block" . }}
+</article>

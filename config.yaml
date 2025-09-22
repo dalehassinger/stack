@@ -1,0 +1,15 @@
+# ...existing config...
+
+taxonomies:
+  tag: tags
+  category: categories
+
+params:
+  # ...existing params...
+  mainSections:
+    - post
+    - posts
+  
+  # Ensure tags are enabled in article metadata
+  article:
+    tags: true

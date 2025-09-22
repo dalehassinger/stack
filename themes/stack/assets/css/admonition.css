@@ -1,0 +1,7 @@
+/* assets/css/admonition.css */
+.admonition { border-left: 4px solid; padding: .75rem 1rem; margin: 1rem 0; border-radius: .25rem; }
+.admonition-title { font-weight: 600; margin-bottom: .25rem; }
+.admonition-note { border-color: #888; background: #f6f6f6; }
+.admonition-tip { border-color: #2a7; background: #f0fff8; }
+.admonition-warning { border-color: #e7a; background: #fff7f7; }
+/* …add types as you like… */
