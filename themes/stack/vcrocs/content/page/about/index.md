@@ -116,6 +116,7 @@ This blog reflects my personal views and opinions, not those of my employer. I w
 * **VMware vExpert - Cloud Management** | 2021 - 2024 - <small>(Subprogram discontinued)</small>  
 * **VMware vExpert - vSphere** | 2024  - <small>(Subprogram discontinued)</small>  
 * **VMware {code} Coach** | 2025 - Present  
+* I was a guest on the [**Virtually Speaking Podcast**](https://youtu.be/vYi2KVLVSUU?si=ZrDA6jvW15CyhkGb). We discussed the VMware Explore Hackathon.
 * I had the pleasure of being a guest on the **CMTY Podcast 738, Wrapping Up VMware Explore Las Vegas, 2025**. We discussed the VMware Explore Hackathon and other vCommunity activities. You can listen to the podcast on YouTube. [Link to Podcast](https://www.youtube.com/live/PTyv9Q7rrOY?si=TQ4Jk_BtLv1IgAaU)
 * **VMware Explore 2025 Activites:**
   * **Presentations:**  
