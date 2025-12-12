@@ -1,0 +1,1265 @@
+/home/dale17h/Documents/GitHub/stack
+├── archetypes
+│   └── default.md
+├── cleanup.ps1
+├── config.yaml
+├── content
+│   └── posts
+│       ├── emoji-support
+│       │   ├── index.md
+│       │   └── the-creative-exchange-d2zvqp3fpro-unsplash.jpg
+│       ├── markdown-syntax
+│       │   ├── index.md
+│       │   └── pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg
+│       ├── math-typesetting
+│       │   └── index.md
+│       ├── placeholder-text
+│       │   ├── index.ar.md
+│       │   ├── index.md
+│       │   └── matt-le-SJSpo9hQf7s-unsplash.jpg
+│       ├── rich-content
+│       │   └── index.md
+│       ├── veba-02-powercli
+│       │   └── index.en.md
+│       ├── veba-03-powershell
+│       │   └── index.en.md
+│       ├── veba-04-python
+│       │   └── index.en.md
+│       ├── veba-05-go
+│       │   └── index.en.md
+│       └── vSphere-with-Tanzu-SupervisorCluster-Certificate-Refresh
+│           └── index.en.md
+├── hugo.toml
+├── hugo.yaml
+├── layouts
+│   ├── index.html
+│   └── partials
+│       └── article
+│           ├── components
+│           │   └── tags.html
+│           └── list
+│               └── default.html
+├── public
+│   ├── categories
+│   │   └── index.xml
+│   ├── index.xml
+│   ├── sitemap.xml
+│   └── tags
+│       └── index.xml
+└── themes
+    └── stack
+        ├── archetypes
+        │   ├── categories.md
+        │   ├── default.md
+        │   └── tags.md
+        ├── assets
+        │   ├── css
+        │   │   └── admonition.css
+        │   ├── icons
+        │   │   ├── archives.svg
+        │   │   ├── arrow-back.svg
+        │   │   ├── back.svg
+        │   │   ├── brand-github.svg
+        │   │   ├── brand-linkedin.svg
+        │   │   ├── brand-twitter.svg
+        │   │   ├── brand-x2.svg
+        │   │   ├── brand-x.svg
+        │   │   ├── categories.svg
+        │   │   ├── clock.svg
+        │   │   ├── copyright.svg
+        │   │   ├── date.svg
+        │   │   ├── hash.svg
+        │   │   ├── home.svg
+        │   │   ├── infinity.svg
+        │   │   ├── language.svg
+        │   │   ├── link.svg
+        │   │   ├── messages.svg
+        │   │   ├── podcast.svg
+        │   │   ├── rss.svg
+        │   │   ├── search.svg
+        │   │   ├── tags.svg
+        │   │   ├── tag.svg
+        │   │   ├── toggle-left.svg
+        │   │   ├── toggle-right.svg
+        │   │   └── user.svg
+        │   ├── img
+        │   │   └── avatar.png
+        │   ├── scss
+        │   │   ├── breakpoints.scss
+        │   │   ├── custom.scss
+        │   │   ├── external
+        │   │   │   └── normalize.scss
+        │   │   ├── general.scss
+        │   │   ├── grid.scss
+        │   │   ├── partials
+        │   │   │   ├── article.scss
+        │   │   │   ├── base.scss
+        │   │   │   ├── comments
+        │   │   │   │   └── disqusjs.scss
+        │   │   │   ├── footer.scss
+        │   │   │   ├── highlight
+        │   │   │   │   ├── common.scss
+        │   │   │   │   ├── dark.scss
+        │   │   │   │   └── light.scss
+        │   │   │   ├── layout
+        │   │   │   │   ├── 404.scss
+        │   │   │   │   ├── article.scss
+        │   │   │   │   ├── list.scss
+        │   │   │   │   └── search.scss
+        │   │   │   ├── menu.scss
+        │   │   │   ├── pagination.scss
+        │   │   │   ├── sidebar.scss
+        │   │   │   └── widgets.scss
+        │   │   ├── style.scss
+        │   │   └── variables.scss
+        │   └── ts
+        │       ├── colorScheme.ts
+        │       ├── color.ts
+        │       ├── createElement.ts
+        │       ├── gallery.ts
+        │       ├── main.ts
+        │       ├── menu.ts
+        │       ├── scrollspy.ts
+        │       ├── search.tsx
+        │       └── smoothAnchors.ts
+        ├── config.yaml
+        ├── data
+        │   └── external.yaml
+        ├── debug.sh
+        ├── exampleSite
+        │   └── hugo.yaml
+        ├── go.mod
+        ├── i18n
+        │   ├── ar.yaml
+        │   ├── be.yaml
+        │   ├── bg.yaml
+        │   ├── bn.yaml
+        │   ├── ca.yaml
+        │   ├── cs.yaml
+        │   ├── de.yaml
+        │   ├── el.yaml
+        │   ├── en.yaml
+        │   ├── es.yaml
+        │   ├── fa.yaml
+        │   ├── fr.yaml
+        │   ├── hi.yaml
+        │   ├── hu.yaml
+        │   ├── id.yaml
+        │   ├── it.yaml
+        │   ├── ja.yaml
+        │   ├── ko.yaml
+        │   ├── nl.yaml
+        │   ├── oc.yaml
+        │   ├── pl.yaml
+        │   ├── pt-br.yaml
+        │   ├── pt-pt.yaml
+        │   ├── ru.yaml
+        │   ├── sk.yaml
+        │   ├── th.yaml
+        │   ├── tr.yaml
+        │   ├── uk.yaml
+        │   ├── vi.yaml
+        │   ├── zh-cn.yaml
+        │   ├── zh-hk.yaml
+        │   └── zh-tw.yaml
+        ├── images
+        │   ├── screenshot.png
+        │   └── tn.png
+        ├── layouts
+        │   ├── 404.html
+        │   ├── _default
+        │   │   ├── archives.html
+        │   │   ├── baseof.html
+        │   │   ├── list.html
+        │   │   ├── _markup
+        │   │   │   ├── render-heading.html
+        │   │   │   ├── render-image.html
+        │   │   │   └── render-link.html
+        │   │   ├── rss.xml
+        │   │   └── single.html
+        │   ├── index.html
+        │   ├── page
+        │   │   ├── search.html
+        │   │   └── search.json
+        │   ├── partials
+        │   │   ├── article
+        │   │   │   ├── article.html
+        │   │   │   ├── components
+        │   │   │   │   ├── content.html
+        │   │   │   │   ├── details.html
+        │   │   │   │   ├── footer.html
+        │   │   │   │   ├── header.html
+        │   │   │   │   ├── home-article-block.html
+        │   │   │   │   ├── links.html
+        │   │   │   │   ├── math.html
+        │   │   │   │   ├── photoswipe.html
+        │   │   │   │   ├── related-content.html
+        │   │   │   │   └── tags.html
+        │   │   │   └── list
+        │   │   │       └── default.html
+        │   │   ├── article-list
+        │   │   │   ├── compact.html
+        │   │   │   ├── default.html
+        │   │   │   └── tile.html
+        │   │   ├── comments
+        │   │   │   ├── include.html
+        │   │   │   └── provider
+        │   │   │       ├── beaudar.html
+        │   │   │       ├── cactus.html
+        │   │   │       ├── cusdis.html
+        │   │   │       ├── disqus.html
+        │   │   │       ├── disqusjs.html
+        │   │   │       ├── giscus.html
+        │   │   │       ├── gitalk.html
+        │   │   │       ├── remark42.html
+        │   │   │       ├── twikoo.html
+        │   │   │       ├── utterances.html
+        │   │   │       ├── vssue.html
+        │   │   │       └── waline.html
+        │   │   ├── data
+        │   │   │   ├── description.html
+        │   │   │   └── title.html
+        │   │   ├── footer
+        │   │   │   ├── components
+        │   │   │   │   ├── custom-font.html
+        │   │   │   │   └── script.html
+        │   │   │   ├── custom.html
+        │   │   │   ├── footer.html
+        │   │   │   └── include.html
+        │   │   ├── head
+        │   │   │   ├── colorScheme.html
+        │   │   │   ├── custom.html
+        │   │   │   ├── head.html
+        │   │   │   ├── opengraph
+        │   │   │   │   ├── include.html
+        │   │   │   │   └── provider
+        │   │   │   ├── script.html
+        │   │   │   └── style.html
+        │   │   ├── helper
+        │   │   │   ├── external.html
+        │   │   │   ├── icon.html
+        │   │   │   └── image.html
+        │   │   ├── pagination.html
+        │   │   ├── sidebar
+        │   │   │   ├── left.html
+        │   │   │   └── right.html
+        │   │   └── widget
+        │   │       ├── archives.html
+        │   │       ├── categories.html
+        │   │       ├── search.html
+        │   │       ├── tag-cloud.html
+        │   │       └── toc.html
+        │   └── shortcodes
+        │       ├── admonition.html
+        │       ├── bilibili.html
+        │       ├── gitlab.html
+        │       ├── image.html
+        │       ├── quote.html
+        │       ├── tencent.html
+        │       ├── video.html
+        │       └── youtube.html
+        ├── LICENSE
+        ├── netlify.toml
+        ├── README.md
+        ├── theme.toml
+        └── vcrocs
+            ├── content
+            │   ├── categories
+            │   │   └── Test
+            │   │       ├── hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg
+            │   │       └── _index.md
+            │   ├── _index.md
+            │   ├── page
+            │   │   ├── about
+            │   │   │   ├── author-01.png
+            │   │   │   ├── author-02.gif
+            │   │   │   ├── author.png
+            │   │   │   ├── Broadcom-Logo.png
+            │   │   │   ├── dale-explore-2024.jpg
+            │   │   │   ├── header.afphoto
+            │   │   │   ├── header.png
+            │   │   │   ├── index.md
+            │   │   │   ├── vcrocs.gif
+            │   │   │   ├── vCROCS-Logo.png
+            │   │   │   ├── vexpert-2022-3-stars.png
+            │   │   │   ├── vexpert-2022.png
+            │   │   │   ├── vexpert-2023-4-stars.png
+            │   │   │   ├── vexpert-2023.png
+            │   │   │   ├── vexpert-23.gif
+            │   │   │   ├── vexpert-24.gif
+            │   │   │   ├── vexpert-cloud-management.png
+            │   │   │   └── vmware-by-broadcom-logo.png
+            │   │   ├── archives
+            │   │   │   └── index.md
+            │   │   ├── links
+            │   │   │   ├── index.md
+            │   │   │   └── ts-logo-128.jpg
+            │   │   └── search
+            │   │       └── index.md
+            │   └── post
+            │       ├── 2024-12-days-of-tech
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.afphoto~lock~
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── 2024-top-blogs-and-stats
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── image.png
+            │       │   └── index.en.md
+            │       ├── 2nd-half-2022
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   └── vmware-logo.png
+            │       ├── Add-drives
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── add-registry-values
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── aria-appliances-observability
+            │       │   ├── aria-appliances-01.png
+            │       │   ├── aria-appliances-02.png
+            │       │   ├── aria-appliances-03.gif
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.afphoto~lock~
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── aria-automation-cpu-memory-values
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── t-shirt-01.png
+            │       │   ├── t-shirt-02.png
+            │       │   ├── t-shirt-03.png
+            │       │   ├── t-shirt-04.png
+            │       │   ├── t-shirt-05.png
+            │       │   ├── t-shirt-06.png
+            │       │   └── t-shirt-07.png
+            │       ├── aria-automation-custom-form-with-ChatGPT
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── aria-automation-messages-updates
+            │       │   ├── aria-automation-messages-01.png
+            │       │   ├── aria-automation-messages-02.png
+            │       │   ├── aria-automation-messages-03-1.png
+            │       │   ├── aria-automation-messages-03-2.png
+            │       │   ├── aria-automation-messages-03.png
+            │       │   ├── aria-automation-messages-04.png
+            │       │   ├── aria-automation-messages-07.png
+            │       │   ├── aria-automation-messages-08.png
+            │       │   ├── aria-automation-messages-09.png
+            │       │   ├── aria-automation-messages-10.png
+            │       │   ├── aria-automation-messages-11.png
+            │       │   ├── aria-automation-messages-12.png
+            │       │   ├── aria-automation-messages-15.png
+            │       │   ├── aria-automation-messages-16.png
+            │       │   ├── aria-automation-messages-17.png
+            │       │   ├── aria-automation-messages-google-space.png
+            │       │   ├── aria-automation-messages-teams-message.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── aria-automation-orchestrator-actions-ad-ou
+            │       │   ├── ad-ou-01.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── aria-operations-broadcom-services-mp
+            │       │   ├── 06-cropped.afphoto
+            │       │   ├── 07-cropped.afphoto
+            │       │   ├── 07-cropped.png
+            │       │   ├── 08-cropped.afphoto
+            │       │   ├── 23-1.afphoto
+            │       │   ├── 23-2.afphoto
+            │       │   ├── 23-3.afphoto
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── mp-builder-01.png
+            │       │   ├── mp-builder-02.png
+            │       │   ├── mp-builder-03.png
+            │       │   ├── mp-builder-04.png
+            │       │   ├── mp-builder-05.png
+            │       │   ├── mp-builder-06.png
+            │       │   ├── mp-builder-07.png
+            │       │   ├── mp-builder-08.png
+            │       │   ├── mp-builder-09.png
+            │       │   ├── mp-builder-10.png
+            │       │   ├── mp-builder-11.png
+            │       │   ├── mp-builder-12.png
+            │       │   ├── mp-builder-13.png
+            │       │   ├── mp-builder-14.afphoto
+            │       │   ├── mp-builder-14.png
+            │       │   ├── mp-builder-15.png
+            │       │   ├── mp-builder-16.png
+            │       │   ├── mp-builder-17.png
+            │       │   ├── mp-builder-18.png
+            │       │   ├── mp-builder-19.png
+            │       │   ├── mp-builder-20.png
+            │       │   ├── mp-builder-21.png
+            │       │   ├── mp-builder-22.png
+            │       │   ├── mp-builder-23-1.png
+            │       │   ├── mp-builder-23-2.png
+            │       │   ├── mp-builder-23-3.png
+            │       │   ├── mp-builder-24.png
+            │       │   ├── mp-builder-25.png
+            │       │   ├── mp-builder-26.png
+            │       │   ├── mp-builder-27.png
+            │       │   ├── mp-builder-28.png
+            │       │   ├── mp-builder-29.png
+            │       │   ├── mp-builder-30.png
+            │       │   ├── mp-builder-31.png
+            │       │   ├── mp-builder-32.png
+            │       │   ├── mp-builder-33.png
+            │       │   ├── mp-builder-34.png
+            │       │   ├── mp-builder-35.png
+            │       │   ├── mp-builder-36.png
+            │       │   ├── mp-builder-37.png
+            │       │   ├── mp-builder-38.png
+            │       │   └── mp-builder-39.png
+            │       ├── aria-operations-servicenow-mp-cmdb
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── servicenow-cmdb-sync-only-configuration.pdf
+            │       │   ├── snow-mp-01.png
+            │       │   ├── snow-mp-02.png
+            │       │   ├── snow-mp-03.png
+            │       │   ├── snow-mp-04.png
+            │       │   ├── snow-mp-05.png
+            │       │   ├── snow-mp-06.png
+            │       │   └── snow-mp-07.png
+            │       ├── aria-operations-text-display-widget-vmrc
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   └── vmrc.gif
+            │       ├── aria-operations-vcenter-tags-vm-info
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── vm-info-vcenter-tags-01.png
+            │       │   ├── vm-info-vcenter-tags-02.png
+            │       │   └── vm-info-vcenter-tags-03.png
+            │       ├── automating-automation
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── vro-ss-01.png
+            │       │   ├── vro-ss-02.png
+            │       │   ├── vro-ss-03.png
+            │       │   ├── vro-ss-04.png
+            │       │   ├── vro-ss-05.png
+            │       │   └── vro-ss-06.png
+            │       ├── automation-zero-trust
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── camping-2025-july
+            │       │   ├── camping-01.jpeg
+            │       │   ├── camping-02.jpeg
+            │       │   ├── camping-03.jpeg
+            │       │   ├── camping-04.jpeg
+            │       │   ├── camping-05.jpeg
+            │       │   ├── camping-06.jpeg
+            │       │   ├── camping-07.jpeg
+            │       │   ├── camping-08.jpeg
+            │       │   ├── camping-09.jpeg
+            │       │   ├── camping-10.jpeg
+            │       │   ├── camping-11.jpeg
+            │       │   ├── camping-12.jpeg
+            │       │   ├── camping-13.jpeg
+            │       │   ├── camping-14.jpeg
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── centra-pa-vmug-08-2022
+            │       │   ├── central-pa-vmug.png
+            │       │   ├── f1.jpg
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── chartjs
+            │       │   ├── chartjs01.jpg
+            │       │   ├── chartjs01.png
+            │       │   ├── chartjs02.jpg
+            │       │   ├── chartjs03.jpg
+            │       │   ├── chartjs.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── check-ports
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── clay-thrower
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── end-of-year-review-2023
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── esxi_arm_raspberry-pi
+            │       │   ├── esxi_raspberry_pi_01.png
+            │       │   ├── esxi_raspberry_pi_02.jpeg
+            │       │   ├── esxi_raspberry_pi_03.png
+            │       │   ├── esxi_raspberry_pi_04.png
+            │       │   ├── esxi_raspberry_pi_05.png
+            │       │   ├── esxi_raspberry_pi_06.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── esxi-vm-tiered-memory
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.afphoto~lock~
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── post.png
+            │       │   ├── tiered-01.png
+            │       │   ├── tiered-02.png
+            │       │   ├── tiered-03.png
+            │       │   ├── tiered-04.png
+            │       │   ├── tiered-05.png
+            │       │   ├── tiered-06.png
+            │       │   ├── tiered-07.png
+            │       │   ├── tiered-08.png
+            │       │   ├── tiered-09.png
+            │       │   ├── tiered-10.png
+            │       │   ├── tiered-11.png
+            │       │   ├── tiered-12.png
+            │       │   ├── tiered-13.png
+            │       │   ├── tiered-14.png
+            │       │   ├── tiered-15.png
+            │       │   ├── tiered-16.png
+            │       │   ├── tiered-17.png
+            │       │   ├── tiered-18.png
+            │       │   ├── tiered-19.png
+            │       │   ├── tiered-20.png
+            │       │   └── tiered-21.png
+            │       ├── GitHub-Repository
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── home-lab-current-bom
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── home-lab-01.jpeg
+            │       │   ├── home-lab-02.png
+            │       │   ├── home-lab-03.png
+            │       │   ├── home-lab-04.png
+            │       │   ├── home-lab-05.jpeg
+            │       │   ├── home-lab-06.png
+            │       │   ├── home-lab-07.png
+            │       │   ├── home-lab-08.png
+            │       │   ├── home-lab-09.png
+            │       │   ├── home-lab-10.png
+            │       │   ├── home-lab-11.png
+            │       │   └── index.en.md
+            │       ├── how-to-learn-about-vmware-products
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── learn-01.png
+            │       │   └── learn-02.png
+            │       ├── hugo
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── infoblox
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── infoblox-01.png
+            │       │   ├── infoblox-02.png
+            │       │   ├── infoblox-03.png
+            │       │   └── infoblox-04.png
+            │       ├── it-reality
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   └── it-reality.png
+            │       ├── look-back-2021
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── ollama
+            │       │   ├── a7aaab9c-4d97-425b-a848-252f9a3c63d2.webp
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── ollama-01.png
+            │       │   ├── ollama-02.png
+            │       │   ├── ollama-03.gif
+            │       │   ├── ollama-04.gif
+            │       │   ├── ollama-05.gif
+            │       │   ├── ollama-06.png
+            │       │   ├── ollama-07.gif
+            │       │   ├── ollama-08.png
+            │       │   └── ollama-09.gif
+            │       ├── philly-vmug-03-2023
+            │       │   ├── aria-automation.jpg
+            │       │   ├── aria-operations.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   └── philly-vmug.jpg
+            │       ├── Podcast-Guest-Virtually-Speaking-vCommunity
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   └── vmware-explore-2025-02.gif
+            │       ├── powercli-and-yaml
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   └── powercli-yaml-01.gif
+            │       ├── powercli-getting-started
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── powercli-loves-linux-mac-windows
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── vcf-lab-01.png
+            │       │   └── vcf-lab-02.png
+            │       ├── powercli-orchestrator-linux-powershell-host
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── linux0ps-host-01.gif
+            │       │   ├── linux0ps-host-02.png
+            │       │   └── linux0ps-host-03.png
+            │       ├── powershell-nsx-t
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── powershell-script-web-api-server
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── ps-web-api-server-01.gif
+            │       │   ├── ps-web-api-server-02.gif
+            │       │   ├── ps-web-api-server-03.gif
+            │       │   ├── ps-web-api-server-04.gif
+            │       │   ├── ps-web-api-server-05.png
+            │       │   ├── ps-web-api-server-06.png
+            │       │   ├── ps-web-api-server-07.png
+            │       │   ├── ps-web-api-server-08.png
+            │       │   ├── ps-web-api-server-09.gif
+            │       │   └── ps-web-api-server-10.gif
+            │       ├── productive-apps-2022
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   └── vmware-logo.png
+            │       ├── productive-apps-2023
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   └── vmware-logo.png
+            │       ├── recipe-for-success
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── rest-api-calls-vmware-aria-automation
+            │       │   ├── dave01.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── SaltConf-2021
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── saltconf21-01.afphoto
+            │       │   ├── saltconf21-01.png
+            │       │   ├── saltconf21-02.png
+            │       │   └── saltconf21-03.png
+            │       ├── saltstack-cheatsheet
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   └── registry01.png
+            │       ├── saltstack-config-api
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── Salt-53.PNG
+            │       │   ├── Salt-54.PNG
+            │       │   ├── Salt-55.PNG
+            │       │   ├── Salt-56.PNG
+            │       │   ├── Salt-57.PNG
+            │       │   ├── Salt-58.PNG
+            │       │   ├── Salt-59.PNG
+            │       │   ├── Salt-60.PNG
+            │       │   ├── Salt-61.PNG
+            │       │   ├── Salt-62.PNG
+            │       │   └── Salt-63.PNG
+            │       ├── saltstack-config-part-01
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── saltstack-config-part-03
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── Salt-24.PNG
+            │       │   └── Salt-28.PNG
+            │       ├── saltstack-config-part-04
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── Salt-41.PNG
+            │       │   ├── Salt-42.PNG
+            │       │   ├── Salt-43.PNG
+            │       │   ├── Salt-44.PNG
+            │       │   ├── Salt-45.PNG
+            │       │   ├── Salt-46.PNG
+            │       │   ├── Salt-47.PNG
+            │       │   ├── Salt-48.PNG
+            │       │   └── Salt-49.PNG
+            │       ├── saltstack-config-part-05
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── Salt-41.PNG
+            │       │   └── Salt-42.PNG
+            │       ├── saltstack-config-part-06
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── powercli.png
+            │       │   └── ps.png
+            │       ├── saltstack-config-part-07
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   └── Salt-48.PNG
+            │       ├── saltstack-config-part-08
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── Salt-49.PNG
+            │       │   ├── Salt-50.PNG
+            │       │   ├── Salt-51.PNG
+            │       │   └── Salt-52.PNG
+            │       ├── saltstack-config-part-09
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── schedule-rvtools
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── standup-desk
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── homelab01.png
+            │       │   ├── index.en.md
+            │       │   ├── smartdesk01.png
+            │       │   └── smartdesk02.png
+            │       ├── text-display-widget
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── vrops01-1.png
+            │       │   ├── vrops01-2.png
+            │       │   ├── vrops02-1.png
+            │       │   ├── vrops02-2.png
+            │       │   ├── vrops03.png
+            │       │   └── vrops04.png
+            │       ├── the-powershell-podcast
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── powercli.jpg
+            │       │   └── psp.png
+            │       ├── unlocking-the-potential-vmware-aria-automation-abx-secrets-action-constants
+            │       │   ├── ActionConstants-01.png
+            │       │   ├── ActionConstants-02.png
+            │       │   ├── ActionConstants-03.png
+            │       │   ├── ActionConstants-04.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── unlocking-the-potential-vmware-aria-automation-config-api
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── unlocking-the-potential-vmware-aria-automation-custom-form-versioning
+            │       │   ├── custom-forms-01.png
+            │       │   ├── custom-forms-03.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── unlocking-the-potential-vmware-aria-operations-for-logs-syslog-settings
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── metric-search-01.png
+            │       │   ├── metric-search-02.gif
+            │       │   ├── stream-deck-01.png
+            │       │   ├── stream-deck-02.gif
+            │       │   ├── syslog-01.png
+            │       │   ├── syslog-02.png
+            │       │   ├── syslog-03.png
+            │       │   ├── syslog-04.png
+            │       │   ├── syslog-05.png
+            │       │   ├── syslog-06.png
+            │       │   ├── Transparentlgo-aria-operations-k.png
+            │       │   └── vmw-aria-operations-logs-prod-icon-horiz.png
+            │       ├── unlocking-the-potential-vmware-aria-operations-metric-searching
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── metric-search-01.png
+            │       │   ├── metric-search-02.gif
+            │       │   ├── stream-deck-01.png
+            │       │   ├── stream-deck-02.gif
+            │       │   └── Transparentlgo-aria-operations-k.png
+            │       ├── unlocking-the-potential-vmware-aria-operations-PowerBlock-2023-10
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── unlocking-the-potential-vmware-aria-operations-snap-cleanup
+            │       │   ├── aria-operations-01.png
+            │       │   ├── aria-operations-02.gif
+            │       │   ├── aria-operations-03.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── metric-search-01.png
+            │       │   ├── metric-search-02.gif
+            │       │   ├── stream-deck-01.png
+            │       │   ├── stream-deck-02.gif
+            │       │   └── Transparentlgo-aria-operations-k.png
+            │       ├── unlocking-the-potential-vmware-aria-operations-snapshot-age
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── Use vCenter TAGs to maintain VM Storage Placement
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── vbrownbag-presentation
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── vcenter-observability
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── vcenter-observability-01.png
+            │       │   ├── vcenter-observability-02.png
+            │       │   ├── vcenter-observability-03.png
+            │       │   └── vcenter-observability-04.gif
+            │       ├── vcf-automation-customproperties-cmdb
+            │       │   ├── customproperties-01.png
+            │       │   ├── customproperties-02.png
+            │       │   ├── customproperties-03.png
+            │       │   ├── customproperties-04.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── vcf-automation-deployment-overview-tab
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── overview-tab-01.png
+            │       │   └── overview-tab-02.png
+            │       ├── vcf-automation-input-array
+            │       │   ├── array-01.png
+            │       │   ├── array-02.png
+            │       │   ├── array-03.png
+            │       │   ├── array-04.png
+            │       │   ├── array-05.png
+            │       │   ├── array-06.png
+            │       │   ├── array-07.png
+            │       │   ├── array-08.png
+            │       │   ├── array-09.png
+            │       │   ├── array-10.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── vcf-deploy-home-lab
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── vcf-deploy-01.png
+            │       │   ├── vcf-deploy-02.png
+            │       │   ├── vcf-deploy-03.png
+            │       │   ├── vcf-deploy-04.png
+            │       │   ├── vcf-deploy-05.png
+            │       │   ├── vcf-deploy-06.png
+            │       │   ├── vcf-deploy-07.png
+            │       │   ├── vcf-deploy-08.png
+            │       │   ├── vcf-deploy-09.png
+            │       │   ├── vcf-deploy-10.png
+            │       │   ├── vcf-deploy-11.png
+            │       │   ├── vcf-deploy-12.png
+            │       │   ├── vcf-deploy-13.png
+            │       │   ├── vcf-deploy-14.png
+            │       │   ├── vcf-deploy-15.png
+            │       │   ├── vcf-deploy-16.png
+            │       │   ├── vcf-deploy-17.png
+            │       │   ├── vcf-deploy-18.png
+            │       │   ├── vcf-deploy-19.png
+            │       │   ├── vcf-deploy-20.png
+            │       │   ├── vcf-deploy-21.png
+            │       │   └── vcf-deploy-22.png
+            │       ├── vcf-operations-cpu-overcommit
+            │       │   ├── cpu-overcommit-01.png
+            │       │   ├── cpu-overcommit-02.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── vcf-operations-dashboard-samples
+            │       │   ├── dashboard-01.png
+            │       │   ├── dashboard-02.png
+            │       │   ├── dashboard-03.png
+            │       │   ├── dashboard-04.png
+            │       │   ├── dashboard-05.png
+            │       │   ├── dashboard-06.png
+            │       │   ├── dashboard-07.png
+            │       │   ├── dashboard-08.png
+            │       │   ├── dashboard-09.png
+            │       │   ├── dashboard-10.png
+            │       │   ├── dashboard-11.png
+            │       │   ├── dashboard-12.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.afphoto~lock~
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── vcf-operations-diagnostic-events-api
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── operations-api-01.png
+            │       │   ├── operations-api-02.png
+            │       │   └── operations-api-03.png
+            │       ├── vcf-operations-for-logs-filter-url-notifcation
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.afphoto~lock~
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── logs-url-01.png
+            │       │   ├── logs-url-02.png
+            │       │   └── logs-url-03.png
+            │       ├── vcf-operations-for-logs-syslog-api
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── logs-api-01.png
+            │       │   ├── logs-api-02.png
+            │       │   ├── logs-api-03.png
+            │       │   └── logs-api-04.png
+            │       ├── vcf-operations-vcommunity-mp-windows-services
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── windows-services-01.png
+            │       │   ├── windows-services-02.png
+            │       │   ├── windows-services-03.png
+            │       │   ├── windows-services-04.png
+            │       │   └── windows-services-05.png
+            │       ├── vcf-operations-zoom-mp
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── zoom-mp-01.png
+            │       │   ├── zoom-mp-02.png
+            │       │   ├── zoom-mp-03.png
+            │       │   ├── zoom-mp-04.png
+            │       │   ├── zoom-mp-05.png
+            │       │   ├── zoom-mp-06.png
+            │       │   ├── zoom-mp-07.png
+            │       │   ├── zoom-mp-08.png
+            │       │   ├── zoom-mp-09.png
+            │       │   ├── zoom-mp-10.png
+            │       │   ├── zoom-mp-11.png
+            │       │   ├── zoom-mp-12.png
+            │       │   ├── zoom-mp-13.png
+            │       │   ├── zoom-mp-14.png
+            │       │   ├── zoom-mp-15.png
+            │       │   ├── zoom-mp-16.png
+            │       │   ├── zoom-mp-17.png
+            │       │   ├── zoom-mp-18.png
+            │       │   ├── zoom-mp-19.png
+            │       │   ├── zoom-mp-20.png
+            │       │   ├── zoom-mp-21-2.png
+            │       │   ├── zoom-mp-21.png
+            │       │   ├── zoom-mp-22.png
+            │       │   ├── zoom-mp-23.png
+            │       │   └── zoom-mp-24.png
+            │       ├── vexpert-2022
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── vexpert-2022-01.png
+            │       │   ├── vexpert-2022-3-stars.png
+            │       │   └── vexpert-cloud-management.png
+            │       ├── vexpert-2023
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── vexpert-2023-4-stars.png
+            │       │   ├── vexpert-2023.png
+            │       │   └── vexpert-cloud-management.png
+            │       ├── vexpert-2024
+            │       │   ├── 2024-vexpert-cloud-management.png
+            │       │   ├── 2024-vexpert-vsphere.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── vexpert-2025
+            │       │   ├── 2024-vexpert-cloud-management.png
+            │       │   ├── 2024-vexpert-vsphere.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── VMware-Aria-Automation-Ansible-Integration
+            │       │   ├── ansible-catalog.png
+            │       │   ├── ansible-cloud-template.png
+            │       │   ├── ansible-install-step-01.gif
+            │       │   ├── ansible-install-step-02.gif
+            │       │   ├── ansible-install-step-03.gif
+            │       │   ├── ansible-install-step-04.gif
+            │       │   ├── ansible-new-request.png
+            │       │   ├── ansible-vra-integration-details.png
+            │       │   ├── ansible-vra-integration.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── VMware-Aria-Automation-Config-Windows-Server-Drives
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── windows-drives-01.png
+            │       │   ├── windows-drives-02.png
+            │       │   ├── windows-drives-03.png
+            │       │   ├── windows-drives-04.png
+            │       │   ├── windows-drives-05.png
+            │       │   ├── windows-drives-06.png
+            │       │   ├── windows-drives-07.png
+            │       │   ├── windows-drives-08.png
+            │       │   └── windows-drives-09.png
+            │       ├── VMware-Aria-Automation-SaltStack-Config-Resource
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── ssc-01.png
+            │       │   ├── ssc-02.png
+            │       │   ├── ssc-03.png
+            │       │   ├── ssc-04.png
+            │       │   ├── ssc-05.png
+            │       │   └── ssc-06.png
+            │       ├── VMware-Aria-Operations-RVTools-Dashboard
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── rvtools-dashboard-01.gif
+            │       │   ├── rvtools-dashboard-02.png
+            │       │   ├── rvtools-dashboard-03.png
+            │       │   ├── rvtools-dashboard-04.png
+            │       │   └── RVTools.ps1
+            │       ├── vmware-by-broadcom-hvc-2024-07-12
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.afphoto~lock~
+            │       │   ├── featured-image.png
+            │       │   ├── hvc-01.jpeg
+            │       │   ├── hvc-02.jpeg
+            │       │   ├── hvc-03.jpeg
+            │       │   ├── hvc-04.jpeg
+            │       │   ├── hvc-05.jpeg
+            │       │   ├── hvc-06.jpeg
+            │       │   └── index.en.md
+            │       ├── vmware-community-podcast-659
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── powercli.jpg
+            │       │   └── psp.png
+            │       ├── VMware-Explore-2023-Hackathon
+            │       │   ├── award.jpg
+            │       │   ├── code2501lv.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── hack-01.jpg
+            │       │   ├── hack-02.jpg
+            │       │   ├── hack-03.jpg
+            │       │   ├── hack-04.jpg
+            │       │   ├── hack-05.jpg
+            │       │   ├── hackathon-team-01.png
+            │       │   ├── hackathon-team-02.png
+            │       │   ├── index.en.md
+            │       │   ├── sneak-peak.png
+            │       │   ├── twitter.jpeg
+            │       │   └── well-spoken-hackathon-logo.jpeg
+            │       ├── VMware-Explore-2023-Presentation
+            │       │   ├── code2501lv.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── presenting-01.jpg
+            │       │   └── presenting-02.jpg
+            │       ├── VMware-Explore-2023-Review
+            │       │   ├── fav-01.jpg
+            │       │   ├── fav-02.jpg
+            │       │   ├── fav-03-1.jpg
+            │       │   ├── fav-03.jpg
+            │       │   ├── fav-04.jpg
+            │       │   ├── fav-05.jpg
+            │       │   ├── fav-06.jpg
+            │       │   ├── fav-07.jpg
+            │       │   ├── fav-08.jpg
+            │       │   ├── fav-09.jpg
+            │       │   ├── fav-10.jpg
+            │       │   ├── fav-11.jpg
+            │       │   ├── fav-12.jpg
+            │       │   ├── fav-13.jpg
+            │       │   ├── fav-14.jpg
+            │       │   ├── fav-15.jpg
+            │       │   ├── fav-16.jpg
+            │       │   ├── fav-17.jpg
+            │       │   ├── fav-18.jpg
+            │       │   ├── fav-19.jpg
+            │       │   ├── fav-98.png
+            │       │   ├── fav-99.png
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   └── index.en.md
+            │       ├── vmware-explore-2024
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   └── vmware-explore-2024-01.png
+            │       ├── vmware-explore-2024-insights-session-links
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── vmware-explore-2024-01.jpg
+            │       │   ├── vmware-explore-2024-02.jpg
+            │       │   ├── vmware-explore-2024-03.jpg
+            │       │   ├── vmware-explore-2024-04.jpg
+            │       │   ├── vmware-explore-2024-05.jpg
+            │       │   ├── vmware-explore-2024-06.jpg
+            │       │   ├── vmware-explore-2024-07.jpg
+            │       │   ├── vmware-explore-2024-08.png
+            │       │   ├── vmware-explore-2024-09.png
+            │       │   ├── vmware-explore-2024-10.png
+            │       │   ├── vmware-explore-2024-11.jpg
+            │       │   ├── vmware-explore-2024-12.jpg
+            │       │   ├── vmware-explore-2024-13.jpg
+            │       │   ├── vmware-explore-2024-14.jpg
+            │       │   ├── vmware-explore-2024-15.jpg
+            │       │   ├── vmware-explore-2024-16.jpg
+            │       │   ├── vmware-explore-2024-17.jpg
+            │       │   ├── vmware-explore-2024-18.jpg
+            │       │   ├── vmware-explore-2024-19.png
+            │       │   └── vmware-explore-2024-20.jpg
+            │       ├── vmware-explore-2024-sessions
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── vmware-explore-2024-01.png
+            │       │   └── vmware-explore-2024-02.png
+            │       ├── vmware-explore-2025-insights-session-links
+            │       │   ├── Brock-01.jpeg
+            │       │   ├── Brock-02.jpeg
+            │       │   ├── Brock-03.jpeg
+            │       │   ├── Brock-Cosmin-01.jpeg
+            │       │   ├── corn-cheesecake.jpeg
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── Hackathon-Cartoon-01.jpeg
+            │       │   ├── Hackathon-Cartoon-02.jpeg
+            │       │   ├── Hackathon-Cartoon-03.jpeg
+            │       │   ├── Hackathon-Cartoon-04.jpeg
+            │       │   ├── Hackathon-Cartoon-05.jpeg
+            │       │   ├── Hackathon-Event-00.jpeg
+            │       │   ├── Hackathon-Event-01.jpeg
+            │       │   ├── Hackathon-Event-02.jpeg
+            │       │   ├── Hackathon-Event-03.jpeg
+            │       │   ├── Hackathon-Event-04.jpeg
+            │       │   ├── index.en.md
+            │       │   ├── vmware-explore-2025-00.png
+            │       │   ├── vmware-explore-2025-01.png
+            │       │   ├── vmware-explore-2025-02.gif
+            │       │   ├── vmware-explore-2025-03.png
+            │       │   ├── VMware-Explore-HOL-01.jpeg
+            │       │   ├── VMware-Explore-HOL-02.jpeg
+            │       │   ├── VMware-Explore-HOL-03.jpeg
+            │       │   ├── VMware-Explore-HOL-04.png
+            │       │   ├── VMware-Explore-Presentation-01.jpeg
+            │       │   ├── VMware-Explore-Presentation-02.jpeg
+            │       │   ├── VMware-Explore-Swag-01.jpeg
+            │       │   ├── VMware-Explore-Swag-02.jpeg
+            │       │   └── VMware-Explore-Swag-03.jpeg
+            │       ├── vmware-explore-2025-sessions
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   └── vmware-explore-2025-01.png
+            │       ├── vmware-powerblock-08-2022
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   └── vra01.png
+            │       ├── VMworld-2021-MCL1895
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── vmworld2021-logo-horizontal.jpg
+            │       │   └── vmworld-mcl1895.png
+            │       ├── vra81-abx-ps
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── vra81-01.jpg
+            │       │   ├── vra81-02.jpg
+            │       │   ├── vra81-03.png
+            │       │   └── vra81-04.png
+            │       ├── vra-82-powershell-host
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── pshost-01.PNG
+            │       │   ├── pshost-02.PNG
+            │       │   └── pshost-03.PNG
+            │       ├── vrealize-operations-right-size
+            │       │   ├── featured-image.afphoto
+            │       │   ├── featured-image.png
+            │       │   ├── index.en.md
+            │       │   ├── right-size-01.png
+            │       │   ├── right-size-02.png
+            │       │   ├── right-size-03.png
+            │       │   ├── right-size-04.png
+            │       │   ├── right-size-05.png
+            │       │   ├── right-size-06.png
+            │       │   ├── right-size-07.png
+            │       │   ├── right-size-08.png
+            │       │   ├── right-size-09.png
+            │       │   ├── right-size-10.png
+            │       │   ├── right-size-11.png
+            │       │   └── right-size-12.png
+            │       └── vrops8-new-features
+            │           ├── featured-image.afphoto
+            │           ├── featured-image.png
+            │           ├── index.en.md
+            │           ├── vrops8-01.png
+            │           ├── vrops8-02.png
+            │           ├── vrops8-03.png
+            │           ├── vrops8-04.png
+            │           └── vrops8-05.png
+            ├── hugo.yaml
+            ├── LICENSE
+            ├── README.md
+            └── tree.txt
+
+176 directories, 1087 files
