@@ -1,0 +1,122 @@
+---
+
+title: "Highlights of 2025"
+date: 2025-12-26
+draft: false
+author: "Dale Hassinger"
+description: ""
+resources:
+- name: "featured-image"
+  src: "featured-image.png"
+
+tags: ["Blogs", "Stats", "2025", "Career", "vCommunity"]
+categories: ["VMware Community", "Career"]
+
+
+image: featured-image.png
+---
+**Most-Read Blog Posts of 2025 plus other highlights**
+
+<!--more-->
+
+---
+
+>Automate boldly. Monitor smarter. Share openly. Build community.  
+
+---
+
+![](stats.png)  
+
+
+#### **2025 Stats Recap** 📊  
+
+##### **Blog Site:**  
+**✨ 98,500+ Views**  
+
+##### **LinkedIn:**  
+**🔥 189,500+ Impressions**  
+
+##### **X (Twitter):**  
+**⚡ 35,500+ Impressions**  
+
+All Stats went up this year! 👍🏻 LinkedIn increased the most compared to 2024. 😎
+
+---
+
+**Thank you all for the incredible support this year!**  
+Stay tuned for more insights, tips, and content in 2026!  
+
+---
+
+#### **Surprising Insights from Blogging**  
+
+I'm always surprised by which posts resonate the most with readers. My top-performing post was a LinkedIn post about my Home Lab, 26k+ impressions from the single post.  
+
+So, if you're ever wondering what to write about, start with what you find interesting. Chances are, someone else will find it just as interesting!  
+
+---
+
+#### **2025 | Top Blog Posts:**  
+
+1. **VCF Deploy | Scripted Install | Home Lab**  
+   [Read More](https://www.vcrocs.info/vcf-deploy-scripted-install-home-lab/)  
+
+2. **Mware Aria Automation and Ansible Integration**  
+   [Read More](https://www.vcrocs.info/vmware-aria-automation-ansible-integration/)  
+
+3. **VCF Operations | CPU|Overcommit Details**  
+   [Read More](https://www.vcrocs.info/vcf-operations-cpuovercommit-details/)  
+
+#### **2025 | Top LinkedIn Posts:**  
+1. **Home Lab Discussion**  
+   [Read More](https://www.linkedin.com/feed/update/urn:li:activity:7398491337437696000/)  
+
+2. **VMware Tiered Memory Discussion**  
+   [Read More](https://www.linkedin.com/feed/update/urn:li:activity:7314456811527393280/)  
+
+3. **PowerShell MCP Discussion**  
+   [Read More](https://www.linkedin.com/feed/update/urn:li:activity:7323156817428086784/)  
+
+---
+
+I’m clearly not alone in finding home labs interesting 😎. My home lab is like a mechanic’s toolbox—necessary for my work, but also something I enjoy building and using. It’s the best kind of work: doing what I love and getting paid for it.  
+
+---
+
+#### 2025 Technology Highlights
+
+- A Technology Highlight for me in 2025 was winning the Hackathon at VMware Explore 2025.  
+   [Read More](https://www.vcrocs.info/vmware-explore-2025-success-vcommunity-and-inspiration/)  
+
+![](vspeaking.png)  
+
+- I had the privilege of joining Pete Flecha and John Nicholson on the 𝗩𝗶𝗿𝘁𝘂𝗮𝗹𝗹𝘆 𝗦𝗽𝗲𝗮𝗸𝗶𝗻𝗴 𝗣𝗼𝗱𝗰𝗮𝘀𝘁.  
+   [Read More](https://www.vcrocs.info/podcast-guest-virtually-speaking-and-vcommunity/)  
+
+---
+
+**My 2026 Tech Goals and Recommendations**
+
+#### **Linux Desktop Experiment**
+- I repurposed my Intel-based Mac Mini and installed Ubuntu Desktop to see if a full-time Linux desktop could realistically replace my daily workflow. Blog to be released! The experience is going well so far.    
+
+![](ubuntu.png)  
+
+#### **Presenting at VMUG Connect**
+- I’ve submitted proposals to present at VMUG Connect 2026 across all North American locations.
+
+#### **Presenting at VMware Explore 2026**
+- VMware Explore continues to be a conference I genuinely enjoy each year. In 2026, I plan to submit sessions again and would love to participate as a Hands-On Labs contributor.
+
+![](explore.png)  
+
+---
+
+If you found this blog article helpful and it assisted you, consider buying me a coffee to kickstart my day.
+
+<center>
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="dalehassinger" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+</center>
+
+---
+
