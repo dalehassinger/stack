@@ -30,14 +30,24 @@ image: featured-image.png
 
 #### **2025 Stats Recap** 📊  
 
-##### **Blog Site:**  
-**✨ 98,500+ Views**  
+#### **Blog Site:**  
+- **✨ 98,500+ Views**  
+- 15k+ users  
+- 130+ countries  
+- 80% Desktop, 20% Mobile
+- 73% Chrome, 12% Edge, 7% Safari, 5% Firefox, 3% Other
+- 67% Windows, 10% MacOS, 9% iOS, 8% Android, 4% Linux, 2% Other
 
-##### **LinkedIn:**  
-**🔥 189,500+ Impressions**  
+#### **LinkedIn:**  
+- **🔥 189,500+ Impressions**  
+- 41,330 Members reached  
+- 4,300+ Engagements  
+- 3,500+ Reactions
 
-##### **X (Twitter):**  
-**⚡ 35,500+ Impressions**  
+#### **X (Twitter):**  
+- **⚡ 35,500+ Impressions**  
+- 525+ likes  
+- 155+ retweets
 
 All Stats went up this year! 👍🏻 LinkedIn increased the most compared to 2024. 😎
 
