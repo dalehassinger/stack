@@ -68,7 +68,7 @@ ansible [core 2.13.3]
 
 ---
 
-{{< image src="ansible-install-step-01.gif">}}  
+{{< gif-lightbox src="ansible-install-step-01.gif" >}}  
 
 ---  
 
@@ -93,7 +93,7 @@ ansible_user=root
 ansible_password='VMware1!'
 ```
 
-{{< image src="ansible-install-step-02.gif">}}  
+{{< gif-lightbox src="ansible-install-step-02.gif" >}}  
 
 ---
 
@@ -116,7 +116,7 @@ This is the minium contents of the /etc/ansible/ansible.cfg file:
 host_key_checking = False
 vault_password_file = /etc/ansible/vault-pass.txt
 ```
-{{< image src="ansible-install-step-03.gif">}}  
+{{< gif-lightbox src="ansible-install-step-03.gif" >}}  
 
 ---
 
@@ -129,7 +129,7 @@ vault_password_file = /etc/ansible/vault-pass.txt
 ansible rocky -m ping
 ```
 
-{{< image src="ansible-install-step-04.gif">}}  
+{{< gif-lightbox src="ansible-install-step-04.gif" >}}  
 
 ---
 

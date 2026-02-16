@@ -57,7 +57,7 @@ Here are the screens you will see in Automation Central, Schedule, Report, Histo
 
 ---
 
-{{< image src="aria-operations-02.gif">}}  
+{{< gif-lightbox src="aria-operations-02.gif" >}}  
 
 
 ---

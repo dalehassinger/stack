@@ -80,7 +80,7 @@ In the view filter, I specified two metrics: “guestfilesystem:/storage/imagebu
 
 **Dashboard Usage:**
 
-{{< image src="vcenter-observability-04.gif">}}  
+{{< gif-lightbox src="vcenter-observability-04.gif" >}}  
 
 ---
 > Stay tuned for future blog posts. I plan to create dashboards for monitoring Aria appliances, similar to what I did for VMware vCenter. It's crucial to ensure these appliances are well monitored and maintained, like a Swiss watch.  

@@ -62,7 +62,7 @@ ollama run llama3
 
 ---
 
-{{< image src="ollama-03.gif">}}  
+{{< gif-lightbox src="ollama-03.gif" >}}  
 
 ---
 
@@ -70,7 +70,7 @@ Once you've chosen the desired model, the web site will provide you with the nec
 
 ---
 
-{{< image src="ollama-04.gif">}}  
+{{< gif-lightbox src="ollama-04.gif" >}}  
 
 ---
 
@@ -86,7 +86,7 @@ is a testament to its fast processing capabilities.
 
 ---
 
-{{< image src="ollama-05.gif">}}  
+{{< gif-lightbox src="ollama-05.gif" >}}  
 
 ---
 
@@ -223,7 +223,7 @@ CSV file!
 
 ---
 
-{{< image src="ollama-07.gif">}}  
+{{< gif-lightbox src="ollama-07.gif" >}}  
 
 ---
 
@@ -302,7 +302,7 @@ Two commands I use the most:
 
 In this video, the ollama commands were run using a Stream Deck Button. Realtime speed, no video edits:
 
-{{< image src="ollama-09.gif">}}  
+{{< gif-lightbox src="ollama-09.gif" >}}  
 
 ---
 

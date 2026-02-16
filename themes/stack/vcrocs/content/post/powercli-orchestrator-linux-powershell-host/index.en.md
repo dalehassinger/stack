@@ -51,7 +51,7 @@ pwsh -file /home/administrator/Home-Lab-PS.ps1 -vmName "VM-01" -PowerState "On"
 
 ## Workflow Design:  
 
-{{< image src="linux0ps-host-01.gif">}}  
+{{< gif-lightbox src="linux0ps-host-01.gif" >}}  
 
 ---
 

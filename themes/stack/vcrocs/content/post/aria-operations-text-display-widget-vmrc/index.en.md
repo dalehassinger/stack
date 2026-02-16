@@ -38,7 +38,7 @@ Please explore the blog post to witness the exceptional outcomes a great team ca
 
 ---
 
-{{< image src="vmrc.gif">}}  
+{{< gif-lightbox src="vmrc.gif" >}}  
 
 ---
 

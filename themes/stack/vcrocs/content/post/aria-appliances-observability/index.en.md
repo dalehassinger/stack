@@ -81,7 +81,7 @@ To simplify getting started, all the Views and the Dashboard are available in my
 
 **Dashboard Usage:**
 
-{{< image src="aria-appliances-03.gif">}}  
+{{< gif-lightbox src="aria-appliances-03.gif" >}}  
 
 ---
 

@@ -1,0 +1,94 @@
+<a href="{{ .Get "src" }}" class="gif-lightbox" data-title="{{ .Get "alt" }}">
+  <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" style="max-width: 100%; cursor: pointer; border-radius: 8px;" />
+</a>
+
+{{ if not (.Page.Scratch.Get "gif-lightbox-init") }}
+{{ .Page.Scratch.Set "gif-lightbox-init" true }}
+<style>
+  .gif-lightbox-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gif-lightbox-overlay.active {
+    display: flex;
+  }
+
+  .gif-lightbox-overlay img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+  }
+
+  .gif-lightbox-overlay .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+
+  .gif-lightbox-overlay .close-btn:hover {
+    color: #ccc;
+  }
+</style>
+
+<script>
+  (function() {
+    if (window.gifLightboxInit) return;
+    window.gifLightboxInit = true;
+
+    document.addEventListener('DOMContentLoaded', function() {
+      document.body.addEventListener('click', function(e) {
+        const link = e.target.closest('.gif-lightbox');
+        if (!link) return;
+
+        e.preventDefault();
+
+        // Create overlay
+        const overlay = document.createElement('div');
+        overlay.className = 'gif-lightbox-overlay active';
+
+        const img = document.createElement('img');
+        img.src = link.href;
+        img.alt = link.querySelector('img').alt;
+
+        const closeBtn = document.createElement('button');
+        closeBtn.className = 'close-btn';
+        closeBtn.innerHTML = '&times;';
+        closeBtn.onclick = () => overlay.remove();
+
+        overlay.appendChild(img);
+        overlay.appendChild(closeBtn);
+        document.body.appendChild(overlay);
+
+        // Close on background click
+        overlay.addEventListener('click', function(e) {
+          if (e.target === this) overlay.remove();
+        });
+
+        // Close on Escape key
+        const escHandler = function(e) {
+          if (e.key === 'Escape') {
+            overlay.remove();
+            document.removeEventListener('keydown', escHandler);
+          }
+        };
+        document.addEventListener('keydown', escHandler);
+      });
+    });
+  })();
+</script>
+{{ end }}

@@ -86,7 +86,7 @@ Here are some screenshots of the **Dashboards** our Hackathon Team created using
 
 ![](vmware-explore-2025-01.png)  
 
-{{< image src="vmware-explore-2025-02.gif">}}  
+{{< gif-lightbox src="vmware-explore-2025-02.gif" >}}  
 
 ![](vmware-explore-2025-03.png)  
 

@@ -46,7 +46,7 @@ In this example the metric search found all VMs with CPU|Ready ms > 750 ms. When
 Metric: Virtual Machine where CPU|Ready ms > 750 ms
 {{< /highlight >}}  
 
-{{< image src="metric-search-02.gif">}}  
+{{< gif-lightbox src="metric-search-02.gif" >}}  
 
 Now lets take the search used above and define the results further by specifying host or cluster.
 {{< highlight SQL >}}
@@ -148,7 +148,7 @@ If you're thinking to yourself, I don't want to have to type or copy/paste these
 
 Demo of doing Multiple Searches in a row and all the text is entered by the Stream Deck.  
 
-{{< image src="stream-deck-02.gif">}}  
+{{< gif-lightbox src="stream-deck-02.gif" >}}  
 
 ---
 

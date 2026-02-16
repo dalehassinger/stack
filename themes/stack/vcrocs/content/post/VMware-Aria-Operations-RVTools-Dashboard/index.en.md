@@ -44,7 +44,7 @@ If you don't use RVTools today, take some time and review it. There are some goo
 
 * Screen shot of Dashboard
 
-{{< image src="rvtools-dashboard-01.gif">}}  
+{{< gif-lightbox src="rvtools-dashboard-01.gif" >}}  
 
 ---
 

@@ -48,7 +48,7 @@ This example is a simple **Web Server** (non-ssl) that displays text along with 
 * The image demonstrates how the time updates on each page refresh, highlighting that the web page is dynamic.  
 
 
-{{< image src="ps-web-api-server-01.gif">}}  
+{{< gif-lightbox src="ps-web-api-server-01.gif" >}}  
 
 
 
@@ -196,7 +196,7 @@ This example is a simple **Web Server** (with ssl) that displays text along with
 * The image demonstrates how the time updates on each page refresh, highlighting that the web page is dynamic.  
 
 
-{{< image src="ps-web-api-server-02.gif">}}  
+{{< gif-lightbox src="ps-web-api-server-02.gif" >}}  
 
 
 
@@ -385,7 +385,7 @@ This example is a simple **RESTful API front end** that returns any data that yo
 * Returns Tiered Memory usage of VMs in my Lab  
 * Script can be used to return any data you can create. Think about some cool use cases.  
 
-{{< image src="ps-web-api-server-03.gif">}}  
+{{< gif-lightbox src="ps-web-api-server-03.gif" >}}  
 
 
 
@@ -687,7 +687,7 @@ Automation:
 * There is a 2nd PS script that runs and collects the Tiered Memory Metrics every five minutes and saves the data as a json file that is used with the web page  
 * 100s of use cases
 
-{{< image src="ps-web-api-server-04.gif">}}  
+{{< gif-lightbox src="ps-web-api-server-04.gif" >}}  
 
 ---
 
@@ -773,13 +773,13 @@ sudo systemctl stop vcrocs-api.service
 
 **<small>Running a simple PS script on a remote Linux server that uses the VMware PowerCLI module.</small>**  
 
-{{< image src="ps-web-api-server-09.gif">}}  
+{{< gif-lightbox src="ps-web-api-server-09.gif" >}}  
 
 ---
 
 **<small>I can edit any type of file I need to on the remote Linux server using this technique</small>**  
 
-{{< image src="ps-web-api-server-10.gif">}}  
+{{< gif-lightbox src="ps-web-api-server-10.gif" >}}  
 
 ---
 

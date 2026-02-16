@@ -255,7 +255,7 @@ New-LogEvent "Duration: $duration minutes to deploy Nested ESXi Hosts"
 
 ---
 
-{{< image src="powercli-yaml-01.gif">}}  
+{{< gif-lightbox src="powercli-yaml-01.gif" >}}  
 
 ---
 
