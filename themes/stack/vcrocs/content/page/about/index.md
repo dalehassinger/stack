@@ -70,23 +70,25 @@ This blog reflects my personal views and opinions, not those of my employer. I w
 
 * The **VCF Automation and Operations Specialist Architects** team I was a member of was highly rated and renowned for its innovation and expertise. Over the past few years, several members of this team have become role models for me.  
   
-* I have worked with a great group of people at VMware, past and present. I would like to thank the following people for all their support in no particular order: Steve Leiberson, Brock Peterson, Franky Barragan, Cosmin Trif, Christopher Kusek, Marshall Cline, Marjorie Abdelkrime, Ariel Sanchez, Karl Hauck, Daniel Thomas, Marcus Roberts, Ken Jordan, Corey Blaz, Wes Milliron, Iwan 'e1' Rahabok, and others.  
+* I have worked with a great group of people at VMware, past and present. I would like to thank the following people for all their support in no particular order: Steve Leiberson, Brock Peterson, Franky Barragan, Cosmin Trif, Christopher Kusek, Marshall Cline, Marjorie Abdelkrime, Ariel Sanchez, Karl Hauck, Marcus Roberts, Ken Jordan, Corey Blaz, Wes Milliron, Iwan 'e1' Rahabok, HOL Team and others.  
   
 * **Special Thanks** to David Kruse for getting me started with VCF Automation <small>(vRA)</small>.  
   
 * **Special Thanks** to Vincent Riccio for allowing me to do SaltStack Config Presentations with you at VMworld 21 and SaltConf 21  
 
-* **Special Thanks** to my first manager at VMware: Alex Musicante. You believed in me and my passion/skills/knowledge of the VMware Products. You gave me a career opportunity that no one else did.  
+* **Special Thanks** to my first manager at VMware: Alex Musicante. You believed in me and my passion/skills/knowledge of the VMware Products. You gave me a career opportunity that no one else did. 👍🏻  
 
-* **Special Thanks** to my first SE manager at VMware: Eric Murray. You helped me take my passion/skills/knowledge of the VMware Products to the next level. You gave me great career advice and helped mentor me in the SE role.  
+* **Special Thanks** to my first SE manager at VMware: Eric Murray. You helped me take my passion/skills/knowledge of the VMware Products to the next level. You gave me great career advice and helped mentor me in the SE role. 👍🏻  
 
 * **Special Thanks** to some past and present co-workers, SEs, TAMs, HVC Members that I learned a lot from: Robert Mitchell, Dan Grove, Steve Holmes, Steve Pittenger, Anton Wesztergom (Opened my eyes to vRA Day 2), Megan Koss, Josh Demcher.  
 
-* **Special Thanks** to my VMware Explore 2023 Hackathon Team: Madison Welsch, Wes Milliron, Tina Krogull, Viviana Miranda, and Edgar Sanchez.  
+* **Special Thanks** to my VMware Explore 2023 Hackathon Team: Madison Welsch, Wes Milliron, Tina Krogull, Viviana Miranda, and Edgar Sanchez. 🥈  
 
-* **Special Thanks** to my VMware Explore 2024 Hackathon Team: Don Horrox, Amos Clerizier, Brian Haskell, and Adrian Ayran.  
+* **Special Thanks** to my VMware Explore 2024 Hackathon Team: Don Horrox, Amos Clerizier, Brian Haskell, and Adrian Ayran. 🥈  
 
-* **Special Thanks** to the person that gave me my first Job in IT and an early role model in my career: David Cornelius  
+* **Special Thanks** to my VMware Explore 2025 Hackathon Team: Don Horrox, Amos Clerizier, Cosmin Trif, and Admin Willie. 🥇  
+
+* **Special Thanks** to the person that gave me my first Job in IT and an early role model in my career: David Cornelius ✅  
 
 * **Special Thanks** to my current Team at VMware by Broadcom. We continue to keep the VMware Culture that I experienced when I joined VMware. Helping each other to be successful in our roles and helping and doing what is best for our customers.  
 
