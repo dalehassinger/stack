@@ -65,36 +65,40 @@ This blog reflects my personal views and opinions, not those of my employer. I w
 
 ><center><b>“It doesn’t make sense to hire smart people and then tell them what to do, We hire smart people so they can tell us what to do.” - Steve Jobs</b></center>  
 
-  
-* I am currently a **Staff VMware VCF Architect** covering Strategic Accounts  
+### **Professional Journey & Acknowledgements**
 
-* The **VCF Automation and Operations Specialist Architects** team I was a member of was highly rated and renowned for its innovation and expertise. Over the past few years, several members of this team have become role models for me.  
-  
-* I have worked with a great group of people at VMware, past and present. I would like to thank the following people for all their support in no particular order: Steve Leiberson, Brock Peterson, Franky Barragan, Cosmin Trif, Christopher Kusek, Marshall Cline, Marjorie Abdelkrime, Ariel Sanchez, Karl Hauck, Marcus Roberts, Ken Jordan, Corey Blaz, Wes Milliron, Iwan 'e1' Rahabok, HOL Team and others.  
-  
-* **Special Thanks** to David Kruse for getting me started with VCF Automation <small>(vRA)</small>.  
-  
-* **Special Thanks** to Vincent Riccio for allowing me to do SaltStack Config Presentations with you at VMworld 21 and SaltConf 21  
+Currently, I serve as a **Principle VMware VCF Architect** focused on Strategic Accounts. My career has been shaped by the incredible people I’ve worked with and the teams that have pushed the boundaries of what is possible in our industry.
 
-* **Special Thanks** to my first manager at VMware: Alex Musicante. You believed in me and my passion/skills/knowledge of the VMware Products. You gave me a career opportunity that no one else did. 👍🏻  
+### **The Specialist Architect Foundation**
+I am proud to have been a member of the **VCF Automation and Operations Specialist Architects** team. This group is widely renowned for its innovation and deep expertise, and many of my colleagues there have become significant role models in my professional life.
 
-* **Special Thanks** to my first SE manager at VMware: Eric Murray. You helped me take my passion/skills/knowledge of the VMware Products to the next level. You gave me great career advice and helped mentor me in the SE role. 👍🏻  
+### **The VMware Community & Support**
+I’ve had the privilege of working with an extraordinary group of people at VMware, past and present. I want to extend my sincere gratitude for the support and partnership of:
+* Steve Leiberson, Brock Peterson, Franky Barragan, Cosmin Trif, Christopher Kusek, Marshall Cline, Marjorie Abdelkrime, Ariel Sanchez, Karl Hauck, Marcus Roberts, Ken Jordan, Corey Blaz, Wes Milliron, Iwan 'e1' Rahabok, the HOL Team, and many others.
 
-* **Special Thanks** to some past and present co-workers, SEs, TAMs, HVC Members that I learned a lot from: Robert Mitchell, Dan Grove, Steve Holmes, Steve Pittenger, Anton Wesztergom (Opened my eyes to vRA Day 2), Megan Koss, Josh Demcher.  
+### **Special Thanks & Mentorship**
+* **To my first managers at VMware, Alex Musicante and Eric Murray:** Thank you for believing in my passion and skills. Alex, you provided the opportunity that launched this chapter of my career; Eric, your mentorship helped me refine my technical knowledge into the SE role. 👍🏻
+* **To David Kruse:** For being the catalyst that got me started with VCF Automation <small>(vRA)</small>.
+* **To Vincent Riccio:** For the opportunity to co-present SaltStack Config at VMworld 21 and SaltConf 21.
+* **To my peers and mentors:** Robert Mitchell, Dan Grove, Steve Holmes, Steve Pittenger, Anton Wesztergom (for opening my eyes to vRA Day 2), Megan Koss, and Josh Demcher. I have learned so much from each of you.
+* **To David Cornelius:** For giving me my first job in IT and serving as an early role model in my career. ✅
 
-* **Special Thanks** to my VMware Explore 2023 Hackathon Team: Madison Welsch, Wes Milliron, Tina Krogull, Viviana Miranda, and Edgar Sanchez. 🥈  
+### **The Hackathon Teams**
+Some of my favorite memories come from the **VMware Explore Hackathons**. Thank you to the teams who shared the late nights and the podium with me:
+* **2025 Team:** Don Horrox, Amos Clerizier, Cosmin Trif, and Admin Willie. 🥇
+* **2024 Team:** Don Horrox, Amos Clerizier, Brian Haskell, and Adrian Ayran. 🥈
+* **2023 Team:** Madison Welsch, Wes Milliron, Tina Krogull, Viviana Miranda, and Edgar Sanchez. 🥈
 
-* **Special Thanks** to my VMware Explore 2024 Hackathon Team: Don Horrox, Amos Clerizier, Brian Haskell, and Adrian Ayran. 🥈  
+### **Current Team & Culture**
+To my current team at **VMware by Broadcom**: Thank you for keeping the unique VMware culture alive. We continue to prioritize mutual success and, above all, doing what is best for our customers.
 
-* **Special Thanks** to my VMware Explore 2025 Hackathon Team: Don Horrox, Amos Clerizier, Cosmin Trif, and Admin Willie. 🥇  
+### **Inspiration & Guidance**
+The following community leaders have taught me the true value of "Giving Back" through their technical content. I highly recommend following their work:
+* **Cody De Arkland, Luc Dekens, Kyle Ruddy, William Lam, and Alan Renouf.**
 
-* **Special Thanks** to the person that gave me my first Job in IT and an early role model in my career: David Cornelius ✅  
+*And finally, a thank you to anyone else who has been a part of this incredible journey called my career...*
 
-* **Special Thanks** to my current Team at VMware by Broadcom. We continue to keep the VMware Culture that I experienced when I joined VMware. Helping each other to be successful in our roles and helping and doing what is best for our customers.  
-
-* **List of Bloggers** that I follow and have learned a lot by them “Giving Back”: Cody De Arkland, Luc Dekens, Kyle Ruddy, William Lam, Alan Renouf.  
-
-* and anyone else that helped me in my journey called my career…  
+---
 
 > <center><b>"Dale Hassinger, you push the dashboards beyond what I thought was possible." - Iwan 'e1' Rahabok</b></center>
 
@@ -113,52 +117,63 @@ This blog reflects my personal views and opinions, not those of my employer. I w
 
 ><center><b>"If you have an apple and I have an apple and we exchange these apples, then you and I will still each have one apple. But if you have an idea and I have an idea and we exchange these ideas, then each of us will have two ideas." — George Bernard Shaw</b></center>  
 
-* **VMware vExpert** | 2020 - Present | [Link to vExpert Profile](https://vexpert.vmware.com/directory/5721)  
-* **VMware vExpert - VCF** | 2025 - Present  
-* **VMware vExpert - Cloud Management** | 2021 - 2024 - <small>(Subprogram discontinued)</small>  
-* **VMware vExpert - vSphere** | 2024  - <small>(Subprogram discontinued)</small>  
-* **VMware {code} Coach** | 2025 - Present  
-* I was a guest on the [**Virtually Speaking Podcast**](https://youtu.be/vYi2KVLVSUU?si=ZrDA6jvW15CyhkGb). We discussed the VMware Explore Hackathon.
-* I had the pleasure of being a guest on the **CMTY Podcast 738, Wrapping Up VMware Explore Las Vegas, 2025**. We discussed the VMware Explore Hackathon and other vCommunity activities. You can listen to the podcast on YouTube. [Link to Podcast](https://www.youtube.com/live/PTyv9Q7rrOY?si=TQ4Jk_BtLv1IgAaU)
-* **VMware Explore 2025 Activites:**
-  * **Presentations:**  
-    * Enhancing VMware Cloud Foundation Operation Management Packs with PowerShell **[CODEQT1121LV]** - Presenter  
-    * VMware Cloud Foundation 9.0 - Operations: Monitoring Network and Storage Operations In the Private Cloud **[ELW-HOL-2601-09]** - Co-Presenter  
-    * VMware Cloud Foundation 9.0 - Operations: VCF Health and Diagnostics **[ELW-HOL-2601-11]** - Co-Presenter  
-    * VMware Cloud Foundation 9.0 - Operations: Monitoring Applications and Services In the Private Cloud **[ELW-HOL-2601-13]** - Co-Presenter  
-    * VMware Cloud Foundation 9.0 - Operations: Monitoring Platform Security and Compliance in the Private Cloud **[ELW-HOL-2601-15]** - Main Presenter
-    * VMware Cloud Foundation 9.0 - Operations: Capacity Optimization, Planning and Green Score **[ELW-HOL-2601-18]** - Co-Presenter  
-    * VMware Cloud Foundation 9.0 - Operations: Cost and Optimization, Showback, and Chargeback **[ELW-HOL-2601-19]** - Main Presenter  
-  * **Hackathon Team Captain**  
-    * Created a PowerShell MCP Server to connect to VMware Products | Use Claude to prompt against vCenter, VCF Operations, Etc... | My Team won 1st Place 🥇  
-* **VMware Explore 2024 Activites:**
-  * **Presentations:**  
-    * Streamlining Healthcare with Automation: How VMware Can Help **[INDB1917LV]**  
-    * Transform VCF Automation Inputs to ABX and Orchestrator Workflow Variables **[CODE1164LV]**  
-    * Maximizing VMware Workstation/Fusion for Business, Education, and Home Labs **[CODE1162LV]**  
-    * Integrate status.broadcom.com Alerts into VCF via Tailored Management Pack **[CODE1161LV]**  
-    * {code} Lab: Advanced Lab Using ChatGPT To Write Powershell Automation **[CODE2554LV]** 
-  * **Hackathon Team Captain**  
-    * ollama and RVTools | (Finished in 2nd Place)  
-*  **VMware CMTY Podcast 659 - VMware Aria Operations | Automation Central** w/ Dale Hassinger - [Link to Podcast](https://www.youtube.com/live/k3mqw3kRsuE?si=_hYuc-VIGGQcBqUD)
-* **VMware Explore 2023 Activites:**
-  * **Presentation:**  
-    * Use VMware Aria to Create/Manage/Monitor Windows Servers (on-prem/cloud) **[CODE2501LV]**  
-  * **Hackathon Team Captain**  
-    * ChatGPT and Aria Automation | (Finished in 2nd Place)  
-* **VMware World 2021 Activites:**
-  * **Presentation:**  
-    * Manage Windows Workloads Through vRealize Automation SaltStack Config **[MCL1895]**  
-* **SaltConf Session - 2021** | Managing Windows with SaltStack Config  
-* **Joined 'Two and a Half Geeks, with Doug Finke** | Where the intersection of AI and IT unfolds in real-time. In this session, Dale Hassinger, with his deep expertise in automation and latest work with AI, teams up with Doug Finke, an AI Tinkerer.
-* **Central PA VMUG - 2024** | VCF Aria Operations Presentation  
-* **TECH BYTES - 2024** | VMware Aria Operations with ServiceNow Management Pack (MP) | How to keep your ServiceNow CMDB up to date  
-* **Philly VMUG - 2023** | VMware Aria Automation and Operations  
-* **Central PA VMUG - 2022** | VMware Explore 2022  
-* **VMware PowerBlock - 2021** | Customer Showcase - VM Right Sizing  
-* **VMware PowerBlock - 2020** | vRealize Operations, your monitoring “Single Pane of Glass  
-* **vBrownbag session for VMworld - 2020** | vRealize Operations, your monitoring “Single Pane of Glass  
+### Community Contributions & Recognition
 
+### 🏆 Industry Recognition
+* **VMware vExpert** | 2020 – Present | [Directory Profile](https://vexpert.vmware.com/directory/5721)
+    * *Specializations:* **VCF** (2025–Present), **Cloud Management** (2021–24), **vSphere** (2024)
+* **VMware {code} Coach** | 2025 – Present
+* **Hackathon Leadership:**
+    * 🥇 **1st Place:** VMware Explore 2025 (Team Captain – PowerShell MCP Server for Claude/VCF)
+    * 🥈 **2nd Place:** VMware Explore 2024 (Team Captain – Ollama & RVTools Integration)
+    * 🥈 **2nd Place:** VMware Explore 2023 (Team Captain – ChatGPT & Aria Automation)
+
+---
+
+### 🎙️ Featured Speaking
+| Date | Event | Session Title |
+| :--- | :--- | :--- |
+| **Apr 2026** | **VMUG Connect Minneapolis** | The Path to Influence: From Attendee to vExpert & Speaker |
+| **Feb 2026** | **Central PA VMUG** | VCF 9: What’s New and Technical Overview |
+| **Jan 2026** | **Broadcom TAM Webinar** | [VCF Operations Management Packs](https://youtu.be/3VU9n-bxLAo) |
+| **2024** | **Tech Bytes** | ServiceNow CMDB Integration with Aria Operations |
+| **2021** | **SaltConf** | Managing Windows with SaltStack Config |
+
+---
+
+### 🚀 VMware Explore / World Sessions
+**2025 | Las Vegas**
+* **Presenter:** Enhancing VCF Operation Management Packs with PowerShell `[CODEQT1121LV]`
+* **Main Presenter:** VCF 9.0 Ops: Platform Security and Compliance `[ELW-HOL-2601-15]`
+* **Main Presenter:** VCF 9.0 Ops: Cost Optimization & Chargeback `[ELW-HOL-2601-19]`
+* **Co-Presenter (HOLs):** Network/Storage Ops `[2601-09]`, Health & Diagnostics `[2601-11]`, Monitoring Apps `[2601-13]`, Capacity Planning `[2601-18]`
+
+**2024 | Las Vegas**
+* **Session:** Streamlining Healthcare with Automation `[INDB1917LV]`
+* **Session:** {code} Lab: Advanced Lab Using ChatGPT for PowerShell `[CODE2554LV]`
+* **Session:** Broadcom Status Alerts Integration via Management Packs `[CODE1161LV]`
+* **Session:** Maximizing Workstation/Fusion for Business and Home Labs `[CODE1162LV]`
+* **Session:** Transform VCF Automation Inputs to ABX & Orchestrator `[CODE1164LV]`
+
+---
+
+### 🎧 Podcasts & Media Appearances
+* **Virtually Speaking Podcast:** Discussing the VMware Explore Hackathon [Watch on YouTube](https://youtu.be/vYi2KVLVSUU)
+* **VMware CMTY Podcast:**
+    * **Ep. 738:** Wrapping Up VMware Explore 2025 & vCommunity Activities [Listen](https://www.youtube.com/live/PTyv9Q7rrOY)
+    * **Ep. 659:** Aria Operations | Automation Central [Listen](https://www.youtube.com/live/k3mqw3kRsuE)
+* **Two and a Half Geeks (with Doug Finke):** Exploring the intersection of AI and IT automation.
+
+---
+
+### 📍 Local Community & User Groups
+* **VMUG:** Frequent presenter at **Philly VMUG** (Aria Automation) and **Central PA VMUG** (VCF Ops, Explore Recaps).
+* **VMware PowerBlock:**
+    * Customer Showcase: VM Right Sizing (2021)
+    * vRealize Operations: Your Monitoring "Single Pane of Glass" (2020)
+* **vBrownbag:** VMworld 2020 – vRealize Operations Deep Dive
+
+---
 
 ><center><b>"Your stuff is consistently one of the most practical, well-presented, thoughtful, useful content sources" - Corey Blaz</b></center>  
 
@@ -173,3 +188,7 @@ This blog reflects my personal views and opinions, not those of my employer. I w
 <center>
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="dalehassinger" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
 </center>
+
+---
+
+
