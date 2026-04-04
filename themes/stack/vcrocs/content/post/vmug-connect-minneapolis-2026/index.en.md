@@ -1,7 +1,7 @@
 ---
 
 title: "VMUG Connect 2026 | Minneapolis"
-date: 2026-02-01
+date: 2026-04-04
 draft: false
 author: "Dale Hassinger"
 description: ""
@@ -32,10 +32,22 @@ If you've ever felt the urge to present at a VMUG or start a technical blog but 
 
 ---
 
-I'll be using this blog as my official VMUG Connect Diary, so check back often. Big news: I'm adding a second presentation topic to my schedule! More updates #soon.
+My presentation schedule for VMUG Connect Minneapolis is finalized. I am involved in the following presentations and co-presentations during the conference.  
+
+Consider attending "VMware Hands-On Lab: Monitoring Your Private Cloud Platform with VCF Operations (HOL-2610-03)" if you have not participated in an Expert-Led Workshop (ELW). While we use the HOL as a foundation, the session is driven by attendee questions and interests. We will explore features and configurations not covered in the standard lab guide. 👍🏻  
+
+![](vmug-connect-2026-02.png)  
+
+---
+
+I'll be using this blog as my official VMUG Connect Diary, so check back often.
 
 ---
 
 I hope my story gives you a glimpse into what makes the vCommunity so special. I look forward to contributing to the vCommunity for years to come. I encourage you to start your own journey today; the community is ready to welcome you.  
+
+---
+
+I look forward to my first trip to Minneapolis and the opportunity to engage with the vCommunity members in the region.  Maybe I will even have a "Jucy Lucy" while in town.  
 
 ---
