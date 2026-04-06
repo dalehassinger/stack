@@ -52,9 +52,13 @@ I look forward to my first trip to Minneapolis and the opportunity to engage wit
 
 ---
 
+Beautiful Day to fly out of BWI
+
 ![](vmug-connect-2026-03.jpeg)  
 
 ---
+
+Used the Light Rail in Minneapolis
 
 ![](vmug-connect-2026-04.jpeg)  
 
@@ -88,6 +92,8 @@ I look forward to my first trip to Minneapolis and the opportunity to engage wit
 
 ---
 
+Welcome to VMUG Connect in Minneaplois
+
 ![](vmug-connect-2026-12.jpeg)  
 
 ---
@@ -105,5 +111,23 @@ I look forward to my first trip to Minneapolis and the opportunity to engage wit
 ---
 
 ![](vmug-connect-2026-16.jpeg)  
+
+---
+
+Dinner at Manny's Steak House. Outstanding!
+
+![](vmug-connect-2026-17.jpeg)  
+
+---
+
+![](vmug-connect-2026-18.jpeg)  
+
+---
+
+![](vmug-connect-2026-19.jpeg)  
+
+---
+
+![](vmug-connect-2026-20.jpeg)  
 
 ---
