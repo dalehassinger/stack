@@ -40,10 +40,6 @@ Consider attending "VMware Hands-On Lab: Monitoring Your Private Cloud Platform 
 
 ---
 
-I'll be using this blog as my official VMUG Connect Diary, so check back often.
-
----
-
 I hope my story gives you a glimpse into what makes the vCommunity so special. I look forward to contributing to the vCommunity for years to come. I encourage you to start your own journey today; the community is ready to welcome you.  
 
 ---
@@ -51,6 +47,24 @@ I hope my story gives you a glimpse into what makes the vCommunity so special. I
 I look forward to my first trip to Minneapolis and the opportunity to engage with the vCommunity members in the region.  Maybe I will even have a "Jucy Lucy" while in town.  
 
 ---
+
+### Reflections on VMUG Connect  
+
+**I recently attended VMUG Connect in Minneapolis. Here are the key takeaways from the event:**
+
+- **Location:** Minneapolis is a practical central hub. The city is clean, transit from the airport to the venue is efficient, and the local dining options are excellent.
+
+- **Content:** The technical sessions were well-executed. Presenters covered relevant topics that resonated with the vCommunity.
+
+- **Certification:** A major highlight was the onsite testing. VMUG Advantage members could sit for certification exams at no cost.
+
+- **Overall Value:** From the food to the networking, the event was well-organized. I look forward to attending future sessions in this series.
+
+---
+
+### Photos  
+
+**Enjoy my Pics from the VMUG Connect conference.**  
 
 Beautiful Day to fly out of BWI
 
@@ -129,5 +143,53 @@ Dinner at Manny's Steak House. Outstanding!
 ---
 
 ![](vmug-connect-2026-20.jpeg)  
+
+---
+
+Brock Peterson and I
+
+![](vmug-connect-2026-21.jpeg)  
+
+---
+
+Justin Sider doing a great Presentation  
+
+![](vmug-connect-2026-22.jpeg)  
+
+---
+
+Chris Horner presentating a ELW HOL  
+
+![](vmug-connect-2026-23.jpeg)  
+
+---
+
+Peter Near and Chris McCain Presenting the Keynote  
+
+![](vmug-connect-2026-24.jpeg)  
+
+---
+
+Showing some Management Pack Builder details during the ELW HOL  
+
+![](vmug-connect-2026-25.jpeg)  
+
+---
+
+Encouraging VMUG members to be more involved in the vCommunity and give back  
+
+![](vmug-connect-2026-26.jpeg)  
+
+---
+
+Brock Peterson and I preparing to record a Virtually Speaking Podcast episode  
+
+![](vmug-connect-2026-27.jpeg)  
+
+---
+
+When discussing OpenClaw, you need to wear the proper attire  
+
+![](vmug-connect-2026-28.jpeg)  
 
 ---
