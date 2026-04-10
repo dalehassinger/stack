@@ -1,7 +1,7 @@
 ---
 
 title: "VMUG Connect 2026 | Minneapolis"
-date: 2026-04-04
+date: 2026-04-10
 draft: false
 author: "Dale Hassinger"
 description: ""
